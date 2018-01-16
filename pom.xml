@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>restapifromscratch</name>
-	<description>restful API with Spring Boot, Gradle &amp; MongoDB</description>
+	<description>restful API with Spring Boot, Maven &amp; MongoDB</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -28,6 +28,10 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-rest</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-mongodb</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
