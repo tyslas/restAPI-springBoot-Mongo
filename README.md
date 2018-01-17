@@ -1,5 +1,5 @@
 # RESTful API w/Spring Boot, Maven & MongoDB
-###### git clone ➡ install & launch MongoDB ➡ run the application w/Maven
+#### git clone ➡ install & launch MongoDB ➡ run the application w/Maven
 
 instructions for installing & launching MongoDB:
 * brew install:
@@ -20,7 +20,7 @@ run the application w/Maven
 $ ./mvnw spring-boot:run 
 ```
 
-For CRUD functionality refer to the below commands once the application is running
+#### For CRUD functionality refer to the below commands once the application is running
 
 hit localhost:8080
 ```
